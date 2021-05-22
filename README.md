@@ -1,1 +1,1 @@
-# realtime-image-identification-app-project--mother-father-kid-
+# realtime-image-identification-app-project-(mother,father,kid)
