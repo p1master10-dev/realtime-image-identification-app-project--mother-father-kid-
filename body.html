@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Image Identification</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Ml5 link and others-->
+</head>
+<body background="BACKGROUND.png">
+    <center>
+        <div id="header_container">
+        <div class="text-primary heading" id="head-text-heading">
+            <h1>Realtime Image Identification</h1>
+        </div>
+        <div id="line-hr">
+            <hr style="margin-top: 5px; background-color: aliceblue; width: 1000px;">
+        </div>
+    <div>
+        <h1 class="btn btn-light" id="head-tag-info">
+            Model is base on - Mother | Father | Kid
+        </h1>
+    </div>
+    </div>
+    <!--BODY START-->
+    <br>
+    <div id="body#1">
+        <p class="btn btn-primary result_para_text">
+            Object:
+            <p id="result_object_name"></p>
+        </p>
+        <br>
+        <p class="btn btn-primary result_para_text">
+            Accuracy:
+            <p id="result_object_accuracy"></p>
+        </p>
+    </div>
+    </center>
+</body>
+<script src="main.js"></script>
+</html>

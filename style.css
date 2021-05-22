@@ -1,0 +1,25 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#head-tag-info{
+    margin-top: 20px;
+}
+
+canvas{
+    background: transparent;
+    border: 2px solid lightgoldenrodyellow;
+    box-shadow: 5px 5px 5px gray;
+    width: 300px;
+    height: 300px;
+    margin-top: 300px;
+    border-radius: 10px;
+}
+
+#header_container{
+    background: rgb(198, 246, 126);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+}
